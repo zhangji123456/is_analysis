@@ -31,13 +31,13 @@
 
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|
-|ID|varchar(50)|主键|否|||借阅者的借书卡号，借阅者信息表的主键|
-|name|varchar(50)| |否|||借阅者姓名|
-|sex|varchar(50)| |否|||借阅者性别|
-|role|varchar(50)| |否|||借阅者角色|
-|maxBorrowNum|int| |是|||对借阅者的最大限制借书量|
-|maxBorrowDays|int| |是|||借阅时限|
-|borrowNum|int| |是|||借阅者的借书量|
+|ID|varchar(50)|主键|否||借阅者的借书卡号，借阅者信息表的主键|
+|name|varchar(50)| |否||借阅者姓名|
+|sex|varchar(50)| |否||借阅者性别|
+|role|varchar(50)| |否||借阅者角色|
+|maxBorrowNum|int| |是||对借阅者的最大限制借书量|
+|maxBorrowDays|int| |是||借阅时限|
+|borrowNum|int| |是||借阅者的借书量|
 
 
 **1.4 管理员表**

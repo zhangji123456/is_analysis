@@ -24,3 +24,8 @@
 
 ## 5. 数据库设计
 - ### [参见数据库设计](./数据库设计.md)
+
+## 6. 用例及界面详细设计
+
+- ### [“登录”用例](./用例/登录.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/login_html.html)
+- ### [“登出”用例](./用例/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/index-student_html.html)

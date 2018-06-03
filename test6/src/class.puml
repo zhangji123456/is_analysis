@@ -1,1 +1,79 @@
+##4.设计类图
 
+@startuml
+title 基于GitHub的实验管理平台--类图
+ class users {
+    <b>user_id</b> （用户ID）
+    name （用户真实姓名）
+    password （用户密码）
+    disable （用户是否禁用）
+    github_username （用户GitHub账号）
+    update_data （用户GitHub修改日期）
+}
+class teachers{
+    <b>teacher_id</b> （老师工号）
+    department （所属部门）
+}
+class students{
+    <b>student_id</b> （学号）
+    class （班级）
+    result_sum （成绩汇总）
+    web_sum （网站正确与否汇总）
+    major （专业）
+}
+class admin{
+      <b>admin_id</b> （管理员ID）
+      power （权限级别）
+}
+class class{
+    <b>class_id</b> （班级id）
+    name（班级名称）
+    department_id （所属院系id）
+    major （专业）
+}
+class department{
+    <b>department_id</b>（院系id）
+    department_name （院名）
+    department_desc （院系简介）
+}
+class courses{
+    <b>course_id</b>（课程编号）
+    course_name（课程名称）
+    course_desc（课程简介）
+    course_term（课程学期）
+    course_major（课程专业）
+}
+class terms{
+    <b>term_id</b>（学期编号）
+    term-year（学年）
+}
+class tests {
+    <b>test_id</b> （实验编号）
+    teacher_id（发布实验的教师id）
+    course_id（课程id）
+    test_name （实验名称）
+    test_desc （实验内容简介）
+    test_last_time （实验截止日期）
+}
+class grades {
+    <b>student_id</b> （学号）
+    <b>test_id</b> （实验编号）
+    grade_score （实验得分）
+    grade_memo （评价）
+    each_score （每个实验的每一项考点得分数）
+    update_date （评改日期）
+}
+users <|- students
+users <|-- teachers
+users <|-- admin
+students "n" -- "1"  class
+teachers "n" -- "1"  department
+class "n" -- "1" department
+students "1" -- "n"  courses
+teachers "n" -- "n"  courses
+teachers "1" -- "n"  tests
+courses  "1" -- "n"  tests
+courses "n" - "n"  terms
+students "1" -- "n"  grades
+tests "1" - "n"  grades
+@enduml

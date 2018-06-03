@@ -21,10 +21,6 @@ class students{
     web_sum （网站正确与否汇总）
     major （专业）
 }
-class admin{
-      <b>admin_id</b> （管理员ID）
-      power （权限级别）
-}
 class class{
     <b>class_id</b> （班级id）
     name（班级名称）
@@ -65,7 +61,6 @@ class grades {
 }
 users <|- students
 users <|-- teachers
-users <|-- admin
 students "n" -- "1"  class
 teachers "n" -- "1"  department
 class "n" -- "1" department

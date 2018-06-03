@@ -14,3 +14,13 @@
 
 ## 2. 系统总体结构
 ![flow1](./img/系统总体结构_.png)
+[界面设计](https://zhangji123456.github.io/is_analysis/test6/ui/index_html.html)
+
+## 3. 用例图设计 [源码](./src/usecase.puml)
+![](./img/用例图.png)
+
+## 4. 类图设计 [源码](./src/class.puml)
+![](./img/类图设计.png)
+
+## 5. 数据库设计
+- ### [参见数据库设计](./数据库设计.md)

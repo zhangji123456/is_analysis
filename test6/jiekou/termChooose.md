@@ -1,5 +1,5 @@
 # 接口：termChooose  [返回](../README.md)
-用例： [选择学期](../yongli/学期选择.md)
+用例： [学期选择](../yongli/学期选择.md)
 
 - 接口名称：termChooose
 

@@ -1,5 +1,5 @@
 # 接口：setUserInfo  [返回](../README.md)
-用例： [修改用户信息](../用例/修改用户信息.md)
+用例： [修改用户信息](../yongli/修改用户信息.md)
 
 - 功能：
     修改用户的GitHub用户名。
@@ -16,8 +16,8 @@
 - 请求实例：
 
         {
-            "id":"21048329823",
-            "github_username":"ABCDE",            
+            "id":"201510414127",
+            "github_username":"xxxxx",            
         }
         
 - 请求参数说明:        

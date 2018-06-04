@@ -7,7 +7,7 @@
     老师:只能对自己已选课程添加实验
 
 - API请求地址：
-    接口基本地址/v1/api/updateExperiment
+    接口基本地址/v1/api/updateTest
 
 - 请求方式 ：
     POST

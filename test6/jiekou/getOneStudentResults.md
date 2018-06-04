@@ -1,5 +1,5 @@
 # 接口：getOneStudentResults  [返回](../README.md)
-用例： [查看成绩](../用例/查看成绩.md)，[评定成绩](../用例/评定成绩.md)
+用例： [查看成绩](../yongli/查看成绩.md)，[评定成绩](../yongli/评定成绩.md)
 
 - 功能：
     返回一个学生的所有实验成绩和实验评价。
@@ -25,17 +25,17 @@
         {         
             "status": true,
             "info": null,    
-            "student_id": "201510315203", 
-            "github_username": "chinajuedui", 
+            "student_id": "201510414127", 
+            "github_username": "zhangji123456", 
             "class": "软件(本)15-1", 
-            "name": "陈松华", 
+            "name": "zhangji", 
             "total": 6,
             "avgresult":90.5,       
             "data": [
                 {
                 "test_id":1,
                 "web_exists": true, 
-                "result": 91, 
+                "result": 90, 
                 "memo":"本实验做得好",
                 "update_date": "2018-04-02 13:48:01"
                 }, 

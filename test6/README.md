@@ -13,8 +13,8 @@
 - 系统自动计算每个学生的所有实验的平均分。
 
 ## 2. 系统总体结构
-![flow1](./img/系统总体结构_.png)
-[界面设计](https://zhangji123456.github.io/is_analysis/test6/ui/index_html.html)
+![flow1](./img/系统总体结构.png)
+[界面设计](https://zhangji123456.github.io/is_analysis/test6/ui/系统首页界面.html)
 
 ## 3. 用例图设计 [源码](./src/usecase.puml)
 ![](./img/用例图.png)

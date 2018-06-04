@@ -27,5 +27,31 @@
 
 ## 6. 用例及界面详细设计
 
-- ### [“登录”用例](./yongli/登录.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/登录.html)
-- ### [“登出”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/index-student_html.html)
+- ### [“登录”用例](./yongli/登录.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/登录界面.html)
+- ### [“登出”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/登出界面.html)
+- ### [“查看用户信息”用例](./yongli/查看用户信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“修改用户信息”用例](./yongli/修改用户信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“修改用户密码”用例](./yongli/修改用户密码.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“录入课程信息”用例](./yongli/录入课程信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/录入课程信息.html)
+- ### [“查看选课学生信息”用例](./yongli/查看选课学生信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看选课学生.html)
+- ### [“评定成绩”用例](./yongli/评定成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/评定成绩界面.html)
+- ### [“发布实验”用例](./yongli/发布实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/发布实验.html)
+- ### [“修改实验”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)
+- ### [“查看学生完成的实验”用例](./yongli/查看学生完成的实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看学生完成的实验.html)
+- ### [“学期选择”用例](./yongli/学期选择.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/学期选择.html)
+- ### [“查看成绩”用例](./yongli/查看成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看成绩界面.html)
+- ### [“课程选择”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/课程选择.html)
+- ### [“修改实验”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)
+- ### [“查看本课程实验内容”用例](./yongli/查看本课程实验内容.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看本课程实验内容.html)
+
+
+
+
+
+
+
+
+
+
+
+

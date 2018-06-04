@@ -1,5 +1,5 @@
 # 接口：getNextPrevStudent  [返回](../README.md)
-用例： [评定成绩](../用例/评定成绩.md)
+用例： [评定成绩](../yongli/评定成绩.md)
 
 - 功能：
     返回一个学生的上一个或者下一个学生的学号。
@@ -25,7 +25,7 @@
         {         
             "status": true,
             "info": null,    
-            "student_id": "201510315203"
+            "student_id": "201510414127"
         }
  
 - 返回参数说明：    

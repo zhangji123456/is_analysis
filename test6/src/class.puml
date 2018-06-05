@@ -21,27 +21,12 @@ class students{
     web_sum （网站正确与否汇总）
     major （专业）
 }
-class class{
-    <b>class_id</b> （班级id）
-    name（班级名称）
-    department_id （所属院系id）
-    major （专业）
-}
-class department{
-    <b>department_id</b>（院系id）
-    department_name （院名）
-    department_desc （院系简介）
-}
 class courses{
     <b>course_id</b>（课程编号）
     course_name（课程名称）
     course_desc（课程简介）
     course_term（课程学期）
     course_major（课程专业）
-}
-class terms{
-    <b>term_id</b>（学期编号）
-    term-year（学年）
 }
 class tests {
     <b>test_id</b> （实验编号）
@@ -58,6 +43,21 @@ class grades {
     grade_memo （评价）
     each_score （每个实验的每一项考点得分数）
     update_date （评改日期）
+}
+class terms{
+    <b>term_id</b>（学期编号）
+    term-year（学年）
+}
+class class{
+    <b>class_id</b> （班级id）
+    name（班级名称）
+    department_id （所属院系id）
+    major （专业）
+}
+class department{
+    <b>department_id</b>（院系id）
+    department_name （院名）
+    department_desc （院系简介）
 }
 users <|- students
 users <|-- teachers

@@ -1,13 +1,13 @@
-# 接口：addCourse  [返回](../README.md)
-用例： [录入课程信息](../yongli/录入课程信息.md)
+# 接口：courseSelectionInfo  [返回](../README.md)
+用例： [查看选课学生信息](../yongli/查看选课学生信息.md)
 - 功能：
-    添加课程。
+    教师查看选课学生信息。
     
 - 权限：
-    管理员。    
+    教师。    
     
 - API请求地址： 
-    接口基本地址/v1/api/addCourse
+    接口基本地址/v1/api/courseSelectionInfo
 
 - 请求方式 ：
     POST

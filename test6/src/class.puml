@@ -61,14 +61,15 @@ class grades {
 }
 users <|- students
 users <|-- teachers
+courses "n" -- "n" students
 students "n" -- "1"  class
+students "1" -- "n"  grades
+courses"n" -- "n"  teachers
+teachers "1" -- "n"  tests
 teachers "n" -- "1"  department
 class "n" -- "1" department
-students "1" -- "n"  courses
-teachers "n" -- "n"  courses
-teachers "1" -- "n"  tests
 courses  "1" -- "n"  tests
-courses "n" - "n"  terms
-students "1" -- "n"  grades
+terms "n" - "n"  courses
 tests "1" - "n"  grades
+
 @enduml

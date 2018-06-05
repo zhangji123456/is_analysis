@@ -1,6 +1,7 @@
 ##4.设计类图
 
 @startuml
+skinparam classBackgroundColor Wheat|CornflowerBlue
 title 基于GitHub的实验管理平台--类图
  class users {
     <b>user_id</b> （用户ID）

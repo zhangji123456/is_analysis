@@ -3,6 +3,16 @@
 
 ```
 @startuml
+skinparam usecase {
+	BackgroundColor DarkSeaGreen
+	BorderColor DarkSlateGray
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+	ArrowColor Olive
+	ActorBorderColor black
+	ActorFontName Courier
+	ActorBackgroundColor<< Human >> Gold
+}
 title 基于GitHub的实验管理平台--用例图
 actor teachers
 actor students

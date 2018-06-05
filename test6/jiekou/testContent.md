@@ -1,14 +1,14 @@
-# 接口：finishTest  [返回](../README.md)
-用例： [查看实验内容](../yongli/查看学生完成的实验.md)
+# 接口：testContent [返回](../README.md)
+用例： [查看本课程实验内容](../yongli/查看本课程实验内.md)
 
 - 功能：
-    老师查看学生完成的实验情况
+    学生查看本课程实验内容
     
 - 权限：
-    老师：可以查看所有学生完成的的实验。
+    学生：可以查看本课程所有实验内容
     
 - API请求地址： 
-    接口基本地址/v1/api/finishTest/<student_id>
+    接口基本地址/v1/api/testContent/<student_id>
 
 - 请求方式 ：
     GET
@@ -34,8 +34,6 @@
                 {
                 "test_id":1,
                 "web_exists": true, 
-                "result": 90, 
-                "memo":"本实验做得好",
                 "update_date": "2018-04-02 13:48:01"
                 }, 
                 {
@@ -54,8 +52,5 @@
   |github_username|学生的gitHub用户名|
   |class|班级|
   |name|真实姓名|   
-  |total|实验总数|
-  |avgresult|实验平均成绩|   
-  |data|所有实验的成绩和评语|
   |test_id|实验编号|
-  |web_exists|本实验的GitHub网页是否存在|
+

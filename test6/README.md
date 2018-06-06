@@ -41,7 +41,6 @@
 - ### [“学期选择”用例](./yongli/学期选择.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/学期选择.html)
 - ### [“查看成绩”用例](./yongli/查看成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看成绩界面.html)
 - ### [“课程选择”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/课程选择.html)
-- ### [“修改实验”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)
 - ### [“查看本课程实验内容”用例](./yongli/查看本课程实验内容.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看本课程实验内容.html)
 
 

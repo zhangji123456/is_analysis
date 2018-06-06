@@ -36,7 +36,7 @@
 - ### [“查看选课学生信息”用例](./yongli/查看选课学生信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看选课学生.html)
 - ### [“评定成绩”用例](./yongli/评定成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/评定成绩界面.html)
 - ### [“发布实验”用例](./yongli/发布实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/发布实验.html)
-- ### [“修改实验”用例](./yongli/登出.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)
+- ### [“修改实验”用例](./yongli/修改实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)
 - ### [“查看学生完成的实验”用例](./yongli/查看学生完成的实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看学生完成的实验.html)
 - ### [“学期选择”用例](./yongli/学期选择.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/学期选择.html)
 - ### [“查看成绩”用例](./yongli/查看成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看成绩界面.html)

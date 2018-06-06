@@ -12,7 +12,7 @@
     老师：可以查看所有学生的成绩。
     
 - API请求地址： 
-    接口基本地址/v1/api/etOneStudentResults
+    接口基本地址/v1/api/setOneStudentResults
 
 - 请求方式 ：
     POST

@@ -1,7 +1,7 @@
 @startuml
 title 基于GitHub的实验管理平台--课程选择用例的顺序图
 actor user
-user -> 实验管理平台_getCourses:getCourses
-user->实验管理平台_getCourses:提供指定学期的id
-实验管理平台_getCourses->user:返回用户指定学期的所有课程集合
+user -> 实验管理平台_courseChooose:courseChooose
+user->实验管理平台_courseChooose:提供指定学期的id
+实验管理平台_courseChooose->user:返回用户指定学期的所有课程集合
 @enduml

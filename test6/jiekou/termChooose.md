@@ -7,7 +7,7 @@
   返回该用户所存在课程的学期列表。
 
 - API请求地址：
-  /v1/api/getTerms/{user_id}
+  /v1/api/termChooos/{user_id}
 
 - 请求方式 ：
   GET

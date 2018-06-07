@@ -1,0 +1,11 @@
+@startuml
+title 基于GitHub的实验管理平台--查看选课学生信息用例的顺序图
+actor teacher
+actor student
+actor course
+actor test
+teacher -> student:根据teacher_id获取学生信息
+student -> course:根据student_id获取学生课程信息
+course -> test:根据course_id获取到学生完成的实验信息
+test -> teacher:返回学生完成的实验信息
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+title 基于GitHub的实验管理平台--查看本课程实验内容用例的顺序图
+actor student
+actor course
+actor test
+student -> course:根据student_id获取课程信息
+course -> test:获取课程实验内容信息
+test -> student:返回课程实验内容信息
+@enduml

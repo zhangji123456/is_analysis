@@ -33,7 +33,7 @@
 - ### [“修改用户信息”用例](./yongli/修改用户信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“修改用户密码”用例](./yongli/修改用户密码.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“录入课程信息”用例](./yongli/录入课程信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/录入课程信息.html)
-- ### [“查看选课学生信息”用例](./yongli/查看选课学生信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看选课学生.html)
+- ### [“查看选课学生信息”用例](./yongli/查看选课学生信息.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/查看选课学生信息.html)
 - ### [“评定成绩”用例](./yongli/评定成绩.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/评定成绩界面.html)
 - ### [“发布实验”用例](./yongli/发布实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/发布实验.html)
 - ### [“修改实验”用例](./yongli/修改实验.md),[界面](https://zhangji123456.github.io/is_analysis/test6/ui/修改实验.html)

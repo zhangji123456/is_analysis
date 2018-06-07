@@ -1,0 +1,13 @@
+@startuml
+title 基于GitHub的实验管理平台--发布实验用例的顺序图
+actor teacher
+actor 前端页面
+actor tests
+teacher -> 前端页面:进入发布实验界面
+前端页面 -> tests:根据teacher_id获取到实验信息
+tests -> 前端页面:返回实验信息
+teacher -> 前端页面:填写发布的实验内容
+前端页面 -> tests:录入新发布的实验信息
+tests -> 前端页面:返回成功
+
+@enduml

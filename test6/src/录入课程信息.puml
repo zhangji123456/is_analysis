@@ -1,0 +1,13 @@
+@startuml
+title 基于GitHub的实验管理平台--录入课程信息用例的顺序图
+actor teacher
+actor 前端页面
+actor course
+teacher -> 前端页面:进入录入课程信息界面
+前端页面 -> course:根据teacher_id获取到课程信息
+course-> 前端页面:返回课程信息
+teacher -> 前端页面:输入将要录入的课程信息
+前端页面 -> course:录入新的课程信息
+course -> 前端页面:返回成功
+
+@enduml

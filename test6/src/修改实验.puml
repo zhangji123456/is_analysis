@@ -1,0 +1,15 @@
+@startuml
+title 基于GitHub的实验管理平台--修改实验用例的顺序图
+actor teache
+actor 前端页面
+actor tests
+teacher -> 前端页面:进入修改实验界面
+前端页面 -> tests:根据teacher_id获取到实验信息
+tests -> 前端页面:返回实验信息
+前端页面 -> 前端页面:跳转并显示到修改实验界面
+前端页面 -> 前端页面:验证输入信息
+teacher -> 前端页面:修改实验内容并提交
+前端页面 -> tests:更新修改的实验信息
+tests -> 前端页面:返回成功
+
+@enduml
